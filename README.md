@@ -1,3 +1,4 @@
+# Movies Recommender System
 This project implements two models for building a recommender system:
 
 1. **Biases-Only Model**: A simple model that predicts ratings based on user and movie biases.
@@ -24,4 +25,18 @@ This project implements two models for building a recommender system:
   - Latent factors ($u_u$, $v_m$): Represent hidden features like a user’s preferences or a movie’s genres.
   - The dot product ($u_u^T v_m$) helps capture complex interactions between users and movies.
 - This model provides better predictions by modeling deeper relationships in the data.
+
+---
+## Notebooks
+
+The implementation is divided into three Jupyter notebooks:
+
+1. **Biases-Only Model Notebook** – Implements and evaluates the simple biases-based approach.
+2. **Biases + Latents Model Notebook** – Extends the model with latent factors and assesses performance improvements.
+3. **Grid Search Notebook** – Conducts hyperparameter tuning to optimize model performance.
+
+## Objective
+
+The goal of this project is to explore different approaches to building recommender systems and understand the impact of biases and latent factors on rating predictions. The implementation is structured to facilitate experimentation and model comparison.
+
 
